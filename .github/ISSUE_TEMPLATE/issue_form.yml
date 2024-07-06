@@ -1,0 +1,11 @@
+name: Bug Report
+description: File a bug report.
+labels: ["bug", "triage"]
+
+body:
+  - type: textarea
+    id: descricao
+    attributes:
+      label: Descricao
+      description: Descreva o problema encontrado
+      placeholder: Seja claro e direto em sua descricao
